@@ -1,0 +1,28 @@
+{
+  "name": "bestfriendfinder",
+  "version": "1.0.0",
+  "description": "This activity was to build a compatibility-based friendfinder app. Basically a dating app. This full-stack site will take in results from The users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpgaarder/BestFriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpgaarder/BestFriendFinder/issues"
+  },
+  "homepage": "https://github.com/jpgaarder/BestFriendFinder#readme"
+}
